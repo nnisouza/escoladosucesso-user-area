@@ -164,9 +164,6 @@ textarea {
     border: 2px solid #1abc9c;
     border-radius: 100%;
 }
-.wrapper .content ul#theOthers li img{
-    
-}
 .wrapper .content ul li h3{
     display: inline-block;
     padding: 4px 10px;
@@ -184,6 +181,13 @@ textarea {
     -o-transform: translate(-50%, -20px);
     transform: translate(-50%, -20px);
 }
+.wrapper .content ul#awaitingPayment li img{
+    border-color: orange;
+}
+.wrapper .content ul#awaitingPayment li h3{
+    background-color: #ffc04d;
+}
+
 .wrapper .footer .copyrights{
     margin: 0;
     padding: 0;
