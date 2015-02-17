@@ -79,7 +79,8 @@ textarea {
     background-size: cover;
 }
 .wrapper .content{
-    width: 750px;
+    width: 100%;
+    max-width: 750px;
     height: auto;
     position: relative;
     margin: 0 auto;
@@ -217,6 +218,16 @@ textarea {
 
 
 
+@media only screen and (max-width: 750px) {
+    .wrapper .content ul{
+        max-width: 500px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .wrapper .content ul{
+        max-width: 250px;
+    }
+}
 
 
 
